@@ -1,0 +1,256 @@
+header{
+  font-family:sans-serif;
+  height: 3em;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: lightsalmon;
+  text-align: center;
+  height: max-content;
+}
+
+
+.titulo_iniciar{
+font-family:sans-serif;
+height: 3em;
+color:rgb(255, 0, 153);
+text-align: center;
+margin-bottom: 40px;
+display: flex;
+justify-content: space-between; /* adjust as needed */
+align-items:center; /* adjust as needed */
+}
+
+body{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+font-size: 1rem;
+font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+
+flex-direction: column;
+height: 100vh;
+margin: 0;
+background-color: lightyellow;
+}
+
+.pantalla{
+border: 1vw solid brown;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: fit-content;
+}
+
+#input-text{
+width: 100vw;
+max-width: 60vw;
+padding: 50px 30px;
+margin: 10px auto 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+}
+
+input[type=text] {
+width: 40;
+padding: 10px 10px;
+margin-bottom: 10px;
+box-sizing: border-box;
+font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif; 
+font-size: 14px;
+text-align: center;
+}
+
+.button-71 {
+background-color: lightsalmon;
+border: 0; 
+border-radius: 56px; 
+color: #fff;  
+cursor: pointer;  
+display: inline-block; 
+font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+font-size: 14px;  
+font-weight: 600;  
+outline: 0;    
+padding: 2vw;  
+position: relative;  
+text-align: center;  
+text-decoration: none;  
+transition: all .3s;  
+user-select: none;  
+-webkit-user-select: none;  
+touch-action: manipulation;  
+}
+
+.button-71:before {
+background-color: initial;
+background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+border-radius: 125px;
+content: "";
+height: 50%;
+left: 4%;
+opacity: .5;
+position: absolute;
+top: 0;
+transition: all .3s;
+width: 92%;
+}
+
+.button-71:hover {
+box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+.button-71 {
+  padding: 16px 48px;
+}
+}
+
+#hide-me {
+display:block;
+}
+
+
+.pie-pagina {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: lightsalmon;
+padding: 2vw;
+height: 8vw;
+/* width: 100vw; +/ */
+/* background: #0e0d0d; */
+}
+
+.pie-pagina span{
+position: static;
+width: 270px;
+height: 38px;
+left: 605.5px;
+top: 32px;
+/* font-family: Raleway; */
+font-style: normal;
+font-weight: bold;
+font-size: 1rem;
+line-height: 19px;
+text-align: center;
+color: #ffffff;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.container {
+
+justify-content: center;
+text-align: center;
+margin: 0 auto;
+display: flex;
+}
+
+
+
+.left, .main, .right {
+float: left;
+width: 60%;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+.left, .main, .right {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 800px) {
+.left, .main, .right {
+  width: 80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.left, .main, .right {
+  width: 60%;
+}
+}
+
+@media screen and (max-width: 400px) {
+.left, .main, .right {
+  width: 40%;
+}
+}
+/* tabla */
+
+.scoreboard {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 5px;
+width: 100%;
+margin-bottom: 3vw;
+/* 
+padding: 20px;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+*/
+
+}
+
+.forma {
+background-color: lightsalmon;
+display: inline-block;
+border-radius: 10px;
+margin:  0 2vw 0;
+border: 10px double lightsalmon;
+box-sizing: border-box;
+color: white;
+}
+
+.contenedor_pantalla {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 65%; /* Adjust as needed */
+}
+
+.scoreboard h2 {
+margin-top: 0;
+color: #333;
+}
+
+.scoreboard p {
+margin: 10px 0;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.stats-table {
+display: flex;
+justify-content: center;
+padding: 5vw;
+}
+
+.stats-table table {
+width: auto;
+border-collapse: collapse;
+text-align: center;
+}
+
+.stats-table th, .stats-table td {
+border: 1px solid white;
+padding: 8px;
+text-align: center;
+}
+
+.btn{
+padding:  2vw;
+}

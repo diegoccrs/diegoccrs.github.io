@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>MICRO PROYECTO 1 - JUEGO AHORCADO</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1>AHORCADO</h1>
+			</div>
+		</header>	
+
+		<main>
+			<div class="titulo_iniciar">
+				<div class="btn">
+					<button id="btn-iniciar" class="button-71" role="button">INICIAR JUEGO</button>
+				</div>
+				<div id="input-text">
+					<button id="btn-agregar" class="button-71" role="button">AGREGAR PALABRA</button>
+					<input type="text" id="agregar-palabra" placeholder="Agregue una palabra">
+				</div>
+				<div class="btn">
+					<button id="btn-reiniciar" class="button-71" role="button">REINICIAR</button>
+				</div>
+			</div>
+
+            
+			<section class="scoreboard">
+				<div class="forma">
+					<P id="intentos">INTENTOS: 0</P>
+
+				</div>
+				<div class="forma">
+					<p id="puntuacion">PUNTUACIÓN: 0</p>
+
+				</div>
+				<div class="forma">
+					<p id="racha">RACHA: 0</p>
+				</div>
+			  </section>
+			  <section class="contenedor_pantalla">
+				  <div class="pantalla" >
+					  <canvas width="1000%" height="600%" id="id_pantalla"></canvas>
+				  </div>
+			  </section>
+			  <section class="stats-table">
+				<div class="forma">
+					<table>
+					  <caption>ESTADISTICAS</caption>
+					  <thead>
+						<tr>
+						  <th>NUMERO</th>
+						  <th>PUNTUACIÓN</th>
+						  <th>RACHA</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  
+						</tr>
+					  </tbody>
+					</table>
+				</div>
+			  </section>
+
+			
+		</main>
+		<footer>
+			<div class="pie-pagina">
+				<span>Desarrollado por Diego Cáceres y Andres Rangel. Estudiantes de la Universidad Metropolitana</span>
+			</div>
+		</footer>
+		
+
+        <script src="js/canvas.js"></script>
+        <script src="js/script.js"></script>
+	</body>
+
+</html>
